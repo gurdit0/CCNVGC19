@@ -1,0 +1,9 @@
+---
+ - name: Creat a Empty file
+   hosts: all
+   become: yes
+   tasks:
+     - name:
+       file:
+         path: "/home/ansible/demo.txt
+         state: touch
