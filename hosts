@@ -1,0 +1,13 @@
+[all]
+srv01
+srv02
+
+[rhe1_hosts]
+srv01
+srv02
+
+[db]
+srv01
+
+[web]
+srv02
