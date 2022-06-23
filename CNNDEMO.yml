@@ -2,6 +2,7 @@
  - name: update and reboot
    hosts: rhe1_hosts
    gather_facts: no
+   become: true
    tasks:
      - name: upgrade alpackage
        yum:
