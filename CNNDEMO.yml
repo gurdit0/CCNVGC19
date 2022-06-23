@@ -1,6 +1,6 @@
 ---
  - name: update and reboot
-   hosts: jumphost
+   hosts: rhe1_hosts
    gather_facts: no
    tasks:
      - name: upgrade alpackage
