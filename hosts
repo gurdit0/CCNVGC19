@@ -1,15 +1,5 @@
 [all]
 DC1
-#srv01
-#srv02
 
 [rhe1_hosts]
-DC1
-#srv01
-#srv02
-
-#[db]
-#srv01
-
-#[web]
-#srv02
+192.168.0.253
