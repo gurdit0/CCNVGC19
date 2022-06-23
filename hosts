@@ -1,13 +1,15 @@
 [all]
-srv01
-srv02
+DC1
+#srv01
+#srv02
 
 [rhe1_hosts]
-srv01
-srv02
+DC1
+#srv01
+#srv02
 
-[db]
-srv01
+#[db]
+#srv01
 
-[web]
-srv02
+#[web]
+#srv02
