@@ -1,0 +1,13 @@
+---
+ - name: update and reboot
+   hosts: jumphost
+   gather_facts: no
+   tasks:
+     - name: upgrade alpackage
+       yum:
+         name: '*'
+         state: latest
+     - name: Reboot Server
+       reboot:
+         pre_reboot_delay: 90
+         msg: "!!!Attention, Server will be reboot in 90seconds!!!"
