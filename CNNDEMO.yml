@@ -1,6 +1,6 @@
 ---
  - name: update and reboot
-   hosts: rhe1_hosts
+   hosts: DC1
    gather_facts: no
    become: true
    tasks:
