@@ -1,6 +1,6 @@
 ---
  - name: update and reboot
-   hosts: DC1
+   hosts: remote
    gather_facts: no
    become: true
    tasks:
